@@ -1495,7 +1495,7 @@ form fieldset legend { padding: 5px 10px; }
 .field .text input[type="search"] { -webkit-appearance: textfield; }
 
 /* Buttons */
-.btn, .skiplink { display: inline-block; width: auto; background: #f2f2f2; -webkit-appearance: none; font-weight: 600; padding: 0 !important; text-align: center; }
+.btn, .skiplink { display: inline-block; width: 100%; background: #f2f2f2; -webkit-appearance: none; font-weight: 600; padding: 0 !important; text-align: center; }
 .btn > a, .btn input, .btn button, .skiplink > a, .skiplink input, .skiplink button { display: block; padding: 0 19px; color: white; height: 100%; }
 .btn input, .btn button, .skiplink input, .skiplink button { background: none; border: none; width: 100%; font-size: 100%; cursor: pointer; font-weight: 400; -webkit-appearance: none; -moz-appearance: none; appearance: none; }
 .btn.xlarge, .skiplink.xlarge { font-size: 31px; font-size: 1.9375rem; height: 69px; line-height: 67px; }
@@ -2567,8 +2567,8 @@ margin-bottom:10px;
 
 
 
-.left {  float: left;}
-.right { float:right;}
+.left {float:left;}
+.right {float:right;}
 
 
 .full-width {width:100%;}
